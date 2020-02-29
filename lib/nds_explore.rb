@@ -15,6 +15,7 @@ def print_first_directors_movie_titles
   
   while row_index < directors_database.length do
    titles = ss_directors[row_index][:title]
+   puts titles
     row_index += 1 
 end
 end 
