@@ -11,7 +11,7 @@ end
 
 def print_first_directors_movie_titles
   
-  ss_movies = directors_database[:movies]
+  ss_movies = directors_database[0][:movies]
   row_index = 0 
   
   
